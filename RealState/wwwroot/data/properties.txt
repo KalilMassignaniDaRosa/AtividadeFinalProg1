@@ -1,0 +1,45 @@
+1;Cozy House;A beautiful cozy house;Rua das Palmeiras;São Paulo;SP;Brazil;3;2;2;120;2020;350000;USD;ForSale;1
+2;Modern Apartment;Spacious with balcony;Av. Paulista;São Paulo;SP;Brazil;2;1;1;85;2019;280000;USD;ForRent;2
+3;Beach Farm;Farm by the sea;Estrada do Mar;Rio de Janeiro;RJ;Brazil;4;3;3;200;2015;750000;USD;ForSale;3
+4;Downtown Office;Office near mall;Rua XV de Novembro;Curitiba;PR;Brazil;0;1;1;45;2021;150000;USD;ForRent;4
+10;Sunny Apartment;Bright apartment with great view;Av. Brasil;São Paulo;SP;Brazil;3;1;2;95;2021;310000;USD;ForSale;2
+11;Mountain Farm;Farm with mountain view;Estrada das Montanhas;Petrópolis;RJ;Brazil;5;3;3;500;2014;980000;USD;ForSale;3
+12;Corporate Office;Office in corporate building;Av. Faria Lima;São Paulo;SP;Brazil;0;2;2;80;2022;450000;USD;ForRent;4
+13;Beach House;House close to the beach;Rua do Litoral;Florianópolis;SC;Brazil;4;2;3;150;2017;700000;USD;ForSale;1
+14;Penthouse Apartment;Luxurious penthouse;Av. Atlântica;Rio de Janeiro;RJ;Brazil;3;2;3;200;2020;1200000;USD;ForSale;2
+15;Rural Farm;Large rural farm;Estrada Rural;Uberlândia;MG;Brazil;6;5;4;800;2010;2200000;USD;ForSale;3
+16;Business Room;Room for small business;Rua das Flores;Curitiba;PR;Brazil;0;1;1;40;2019;200000;USD;ForRent;4
+17;Coastal House;Beautiful house near coast;Av. Beira Mar;Fortaleza;CE;Brazil;5;3;4;250;2016;850000;USD;ForSale;1
+18;Compact Apartment;Small modern apartment;Rua Augusta;São Paulo;SP;Brazil;2;1;1;70;2021;280000;USD;ForRent;2
+19;Lakeside Farm;Farm with lake access;Estrada do Lago;Brasília;DF;Brazil;5;3;3;600;2015;1350000;USD;ForSale;3
+20;Business Office;Spacious office downtown;Av. Paraná;Curitiba;PR;Brazil;0;2;2;85;2020;350000;USD;ForRent;4
+21;Family House;Perfect house for families;Rua dos Pinhais;Blumenau;SC;Brazil;4;2;3;160;2018;620000;USD;ForSale;1
+22;Luxury Apartment;High-end apartment;Av. Ipiranga;São Paulo;SP;Brazil;3;2;2;110;2021;950000;USD;ForSale;2
+23;Green Farm;Farm with large green area;Estrada Verde;Cuiabá;MT;Brazil;6;4;4;900;2013;2500000;USD;ForSale;3
+24;Small Office;Office near bus station;Rua Sete de Setembro;Florianópolis;SC;Brazil;0;1;1;55;2019;250000;USD;ForRent;4
+25;Urban House;House in urban area;Av. das Rosas;Campinas;SP;Brazil;4;2;3;140;2017;580000;USD;ForSale;1
+26;Studio Apartment;Compact studio;Rua Oscar Freire;São Paulo;SP;Brazil;1;1;1;50;2022;240000;USD;ForRent;2
+27;Hillside Farm;Farm on hillside;Estrada da Serra;Belo Horizonte;MG;Brazil;4;3;3;500;2012;1100000;USD;ForSale;3
+28;Downtown Room;Small room downtown;Av. Rui Barbosa;Curitiba;PR;Brazil;0;1;1;35;2020;180000;USD;ForRent;4
+29;Countryside House;House in the countryside;Rua das Hortênsias;Joinville;SC;Brazil;5;3;4;220;2016;690000;USD;ForSale;1
+30;Seaside Apartment;Apartment with sea view;Av. Boa Viagem;Recife;PE;Brazil;3;2;2;105;2019;400000;USD;ForSale;2
+31;Organic Farm;Organic production farm;Estrada da Natureza;Maringá;PR;Brazil;6;4;4;850;2014;2100000;USD;ForSale;3
+32;Office Suite;Large office suite;Rua Padre Anchieta;Curitiba;PR;Brazil;0;2;2;90;2021;370000;USD;ForRent;4
+33;Garden House;House with large garden;Rua das Acácias;Campinas;SP;Brazil;4;2;3;160;2017;610000;USD;ForSale;1
+34;Modern Apartment;Newly built apartment;Av. Santos Dumont;São Paulo;SP;Brazil;3;2;2;95;2022;360000;USD;ForRent;2
+35;Island Farm;Farm on the island;Estrada da Ilha;Florianópolis;SC;Brazil;5;4;4;700;2011;1900000;USD;ForSale;3
+36;Shopping Office;Office in shopping center;Av. Sete de Setembro;Curitiba;PR;Brazil;0;2;2;80;2019;340000;USD;ForRent;4
+37;Suburban House;House in suburban area;Rua das Magnólias;São Paulo;SP;Brazil;4;2;3;150;2016;600000;USD;ForSale;1
+38;City Apartment;Apartment near subway;Av. Paulista;São Paulo;SP;Brazil;2;1;1;80;2020;290000;USD;ForRent;2
+39;River Farm;Farm by the river;Estrada do Rio;Porto Alegre;RS;Brazil;5;3;4;750;2013;1750000;USD;ForSale;3
+40;Tech Office;Office in tech park;Rua Professor Pedro Viriato;Curitiba;PR;Brazil;0;2;2;85;2021;380000;USD;ForRent;4
+41;Elegant House;Elegant house with pool;Rua das Palmeiras;Campinas;SP;Brazil;5;3;4;200;2018;670000;USD;ForSale;1
+42;Comfort Apartment;Comfortable apartment;Av. Ipiranga;São Paulo;SP;Brazil;3;2;2;100;2021;320000;USD;ForRent;2
+43;Eco Farm;Eco-friendly farm;Estrada Ecológica;Maringá;PR;Brazil;6;4;4;950;2010;2300000;USD;ForSale;3
+44;Central Office;Office near central park;Rua Barão do Rio Branco;Curitiba;PR;Brazil;0;2;2;75;2019;330000;USD;ForRent;4
+45;Beach House Deluxe;High-end beach house;Av. Oceânica;Salvador;BA;Brazil;5;3;4;240;2015;900000;USD;ForSale;1
+46;Penthouse Loft;Modern penthouse loft;Av. das Nações Unidas;São Paulo;SP;Brazil;3;2;3;150;2022;1300000;USD;ForSale;2
+47;Valley Farm;Farm in the valley;Estrada do Vale;Petrópolis;RJ;Brazil;7;5;5;1000;2009;2700000;USD;ForSale;3
+48;Business Office Center;Office in business center;Av. Getúlio Vargas;Curitiba;PR;Brazil;0;2;2;85;2020;350000;USD;ForRent;4
+49;Family Villa;Spacious family villa;Rua das Palmeiras;Campinas;SP;Brazil;5;3;4;210;2017;680000;USD;ForSale;1
+50;Urban Apartment;Apartment in prime area;Av. Brigadeiro Faria Lima;São Paulo;SP;Brazil;3;2;2;110;2021;420000;USD;ForRent;2

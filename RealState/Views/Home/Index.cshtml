@@ -1,0 +1,168 @@
+﻿@using RealStateModel
+@model List<RealStateModel.Property>
+
+@{
+    ViewData["Title"] = "Luxor Realty";
+}
+
+<section class="hero fade-in-up">
+    <div class="container">
+        <div class="hero-content text-center">
+            <h1 class="page-title d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-home me-2"></i> Find Your Dream Home With Luxor Realty
+            </h1>
+            <p class="page-subtitle">Discover exclusive properties and exceptional service in your search for the perfect home or investment</p>
+            <a asp-action="Index" asp-controller="Property" class="btn btn-primary-custom">
+                <i class="fa-solid fa-search me-1"></i> Explore Properties
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="container fade-in-up">
+    <div class="section-title text-center">
+        <h2 class="page-title">
+            <i class="fa-solid fa-cogs me-2"></i> Our Services
+        </h2>
+        <p class="page-subtitle">Comprehensive real estate solutions tailored to your needs</p>
+    </div>
+
+    <div class="services-grid">
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fa-solid fa-home"></i>
+            </div>
+            <h3 class="service-title">Property Sales</h3>
+            <p>Expert guidance through the entire home buying process from search to closing</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fa-solid fa-house-user"></i>
+            </div>
+            <h3 class="service-title">Property Rental</h3>
+            <p>Access our extensive portfolio of luxury rental properties worldwide</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-section fade-in-up">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="page-title">
+                <i class="fa-solid fa-quote-left me-2"></i> Client Testimonials
+            </h2>
+            <p class="page-subtitle">Hear what our clients have to say about their Luxor Realty experience</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    <p>"Luxor Realty helped me find a home that truly reflects who I am, even if my nose grew a bit during negotiations!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="~/images/pinocchio.png" alt="Client Pinocchio" />
+                    </div>
+                    <div class="author-info">
+                        <h4>Pinocchio</h4>
+                        <p>Wooden Homeowner</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    <p>"As the god of mischief, I appreciate Luxor's cunning ability to secure the perfect property for my chaotic needs"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <img src="~/images/loki.png" alt="Client Loki" />
+                    </div>
+                    <div class="author-info">
+                        <h4>Loki</h4>
+                        <p>God of Mischief</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section fade-in-up">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="page-title">
+                <i class="fa-solid fa-envelope me-2"></i> Contact Us
+            </h2>
+            <p class="page-subtitle">Get in touch with our team for personalized assistance</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Our Address</h3>
+                        <p>123 Luxor Plaza, New York, NY 10001</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone-alt"></i>
+                    </div>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p>+55 (49) 4002-8922</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email Address</h3>
+                        <p>info@luxorrealty.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group mb-4">
+                        <label class="form-label fw-semibold">
+                            <i class="fa-solid fa-user me-2"></i> Your Name
+                        </label>
+                        <input type="text" class="form-control" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="form-label fw-semibold">
+                            <i class="fa-solid fa-envelope me-2"></i> Your Email
+                        </label>
+                        <input type="email" class="form-control" placeholder="Your Email" />
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="form-label fw-semibold">
+                            <i class="fa-solid fa-comment me-2"></i> Subject
+                        </label>
+                        <input type="text" class="form-control" placeholder="Subject" />
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="form-label fw-semibold">
+                            <i class="fa-solid fa-message me-2"></i> Your Message
+                        </label>
+                        <textarea class="form-control" placeholder="Your Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary-custom" style="width: 100%;">
+                        <i class="fa-solid fa-paper-plane me-1"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

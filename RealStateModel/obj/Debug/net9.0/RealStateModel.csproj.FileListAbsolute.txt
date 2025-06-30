@@ -1,0 +1,11 @@
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\bin\Debug\net9.0\RealStateModel.deps.json
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\bin\Debug\net9.0\RealStateModel.dll
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\bin\Debug\net9.0\RealStateModel.pdb
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\RealStateModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\RealStateModel.AssemblyInfoInputs.cache
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\RealStateModel.AssemblyInfo.cs
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\RealStateModel.csproj.CoreCompileInputs.cache
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\RealStateModel.dll
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\refint\RealStateModel.dll
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\RealStateModel.pdb
+C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealStateModel\obj\Debug\net9.0\ref\RealStateModel.dll

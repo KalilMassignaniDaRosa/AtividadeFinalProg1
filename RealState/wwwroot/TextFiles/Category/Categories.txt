@@ -1,0 +1,4 @@
+1;House
+2;Apartment
+3;Farm
+4;Commercial Room

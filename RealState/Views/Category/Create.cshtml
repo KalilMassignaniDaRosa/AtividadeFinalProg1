@@ -1,0 +1,39 @@
+﻿@model RealStateModel.Category
+
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+<div class="container fade-in-up">
+    <div class="page-header text-center">
+        <div class="header-content">
+            <h1 class="page-title justify-content-center d-flex">
+                <i class="fa-solid fa-plus"></i>
+                Create Category
+            </h1>
+            <p class="page-subtitle">Add a new category to the system</p>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="create-card">
+            <form asp-action="Create" asp-controller="Category" method="post" id="formCategory" novalidate>
+                <div class="mb-4">
+                    <label asp-for="Name" class="form-label fw-semibold">Category Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter category name" required />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <a asp-action="Index" asp-controller="Category" class="btn btn-outline-custom">
+                        <i class="fa-solid fa-arrow-left me-1"></i> Cancel
+                    </a>
+
+                    <button type="submit" class="btn btn-primary-custom">
+                        <i class="fa-solid fa-check me-1"></i> Register
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Export Completed";
+    var file = ViewBag.File;
+}
+
+<div class="container fade-in-up">
+    <div class="page-header text-center">
+        <div class="header-content">
+            <h1 class="page-title justify-content-center d-flex">
+                <i class="fa-solid fa-file-export"></i>
+                Export Completed
+            </h1>
+            <p class="page-subtitle">Your properties were successfully exported!</p>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="export-card text-center">
+            <h2 class="text-success mb-4">
+                <i class="fa-solid fa-circle-check me-2"></i> Export completed successfully!
+            </h2>
+
+            <div class="mb-4">
+                <a asp-action="Index" asp-controller="Property" class="btn btn-outline-custom">
+                    <i class="fa-solid fa-arrow-left me-1"></i> Back to Property List
+                </a>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="mt-4">
+                <h5><i class="fa-solid fa-download me-2"></i> Download your file:</h5>
+                <a href="~/TextFiles/@file.Location/@file.Name"
+                   download
+                   class="btn btn-primary-custom mt-3">
+                    <i class="fa-solid fa-file-arrow-down me-1"></i> @file.Name
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

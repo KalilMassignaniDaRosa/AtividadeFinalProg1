@@ -1,0 +1,192 @@
+﻿@using RealStateModel
+@model RealStateModel.Property
+
+@{
+    ViewData["Title"] = "Update Property";
+}
+
+<div class="container fade-in-up">
+    <div class="page-header text-center mb-4">
+        <div class="header-content">
+            <h1 class="page-title d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-building me-2"></i>
+                Update Property
+            </h1>
+            <p class="page-subtitle">Edit the property information below</p>
+        </div>
+    </div>
+
+    <section class="properties">
+        <div class="container">
+            <div class="properties-grid justify-content-center">
+                <div class="property-card">
+                    <div class="property-details p-4">
+                        <form asp-action="Update" asp-controller="Property" asp-route-id="@Model.Id" method="post" id="formProperty" novalidate>
+                            <div class="mb-4">
+                                <label asp-for="Name" class="form-label fw-semibold">
+                                    <i class="fa-solid fa-tag me-2"></i>Property Name
+                                </label>
+                                <input asp-for="Name" class="form-control" placeholder="Enter property name" required />
+                                <span asp-validation-for="Name" class="text-danger small"></span>
+                            </div>
+
+                            <div class="mb-4">
+                                <label asp-for="Description" class="form-label fw-semibold">
+                                    <i class="fa-solid fa-file-alt me-2"></i>Description
+                                </label>
+                                <textarea asp-for="Description" class="form-control" placeholder="Enter property description" rows="4"></textarea>
+                                <span asp-validation-for="Description" class="text-danger small"></span>
+                            </div>
+
+                            <div class="mb-4">
+                                <label asp-for="CategoryId" class="form-label fw-semibold">
+                                    <i class="fa-solid fa-list me-2"></i>Category
+                                </label>
+                                <select asp-for="CategoryId" class="form-select" required>
+                                    <option value="">-- Select Category --</option>
+                                    @{
+                                        var categories = ViewBag.Categories as List<RealStateModel.Category> ?? new List<RealStateModel.Category>();
+                                    }
+                                    @foreach (var cat in categories)
+                                    {
+                                        var isSelected = cat.Id == Model.CategoryId ? "selected" : null;
+                                        <option value="@cat.Id" selected="@isSelected">@cat.Name</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="CategoryId" class="text-danger small"></span>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label asp-for="Location.Street" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-map-marker-alt me-2"></i>Street
+                                    </label>
+                                    <input asp-for="Location.Street" class="form-control" placeholder="Enter street" required />
+                                    <span asp-validation-for="Location.Street" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="Location.City" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-city me-2"></i>City
+                                    </label>
+                                    <input asp-for="Location.City" class="form-control" placeholder="Enter city" required />
+                                    <span asp-validation-for="Location.City" class="text-danger small"></span>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label asp-for="Location.State" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-flag me-2"></i>State
+                                    </label>
+                                    <input asp-for="Location.State" class="form-control" placeholder="Enter state" required />
+                                    <span asp-validation-for="Location.State" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="Location.Country" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-globe me-2"></i>Country
+                                    </label>
+                                    <input asp-for="Location.Country" class="form-control" placeholder="Enter country" required />
+                                    <span asp-validation-for="Location.Country" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-3">
+                                    <label asp-for="NumBedrooms" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-bed me-2"></i>Bedrooms
+                                    </label>
+                                    <input asp-for="NumBedrooms" type="number" class="form-control" min="0" required />
+                                    <span asp-validation-for="NumBedrooms" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-3">
+                                    <label asp-for="NumBathrooms" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-bath me-2"></i>Bathrooms
+                                    </label>
+                                    <input asp-for="NumBathrooms" type="number" class="form-control" min="0" required />
+                                    <span asp-validation-for="NumBathrooms" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-3">
+                                    <label asp-for="NumParkingSpaces" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-car me-2"></i>Parking Spaces
+                                    </label>
+                                    <input asp-for="NumParkingSpaces" type="number" class="form-control" min="0" required />
+                                    <span asp-validation-for="NumParkingSpaces" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-3">
+                                    <label asp-for="Price" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-dollar-sign me-2"></i>Price
+                                    </label>
+                                    <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="0.00" required />
+                                    <span asp-validation-for="Price" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label asp-for="AreaSize" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-ruler-combined me-2"></i>Area (m²)
+                                    </label>
+                                    <input asp-for="AreaSize" type="number" step="0.1" class="form-control" placeholder="e.g. 75.5" required />
+                                    <span asp-validation-for="AreaSize" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="YearBuilt" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-calendar-alt me-2"></i>Year Built
+                                    </label>
+                                    <input asp-for="YearBuilt" type="number" class="form-control" min="1800" max="@DateTime.Now.Year" required />
+                                    <span asp-validation-for="YearBuilt" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label asp-for="Currency" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-money-bill me-2"></i>Currency
+                                    </label>
+                                    <input asp-for="Currency" class="form-control" placeholder="e.g. USD" required />
+                                    <span asp-validation-for="Currency" class="text-danger small"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="Status" class="form-label fw-semibold">
+                                        <i class="fa-solid fa-info-circle me-2"></i>Status
+                                    </label>
+                                    <select asp-for="Status" class="form-select" required>
+                                        @foreach (var status in Enum.GetValues(typeof(PropertyStatus)).Cast<PropertyStatus>())
+                                        {
+                                            var displayText = status switch
+                                            {
+                                                PropertyStatus.ForSale => "For Sale",
+                                                PropertyStatus.ForRent => "For Rent",
+                                                PropertyStatus.Sold => "Sold",
+                                                PropertyStatus.Rented => "Rented",
+                                                _ => status.ToString()
+                                            };
+                                            if (status == Model.Status)
+                                            {
+                                                <option value="@status" selected="selected">@Model.StatusDisplay</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@status">@displayText</option>
+                                            }
+                                        }
+                                    </select>
+                                    <span asp-validation-for="Status" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between mt-4">
+                                <a asp-action="Index" asp-controller="Property" class="btn btn-outline-custom">
+                                    <i class="fa-solid fa-arrow-left me-1"></i> Back to List
+                                </a>
+                                <button type="submit" class="btn btn-primary-custom">
+                                    <i class="fa-solid fa-check me-1"></i> Update Property
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

@@ -1,0 +1,71 @@
+﻿@model RealStateModel.Property
+
+@{
+    ViewData["Title"] = "Property Details";
+}
+
+<div class="container fade-in-up">
+    <div class="page-header text-center mb-4">
+        <div class="header-content">
+            <h1 class="page-title d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-info-circle me-2"></i>
+                Property Details
+            </h1>
+            <p class="page-subtitle">View complete information about the property</p>
+        </div>
+    </div>
+
+    <section class="properties">
+        <div class="container">
+            <div class="properties-grid justify-content-center">
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="/images/placeholder-property.jpg" alt="@Model.Name" />
+                        <span class="property-badge">@Model.StatusDisplay</span>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="property-price">@string.Format("{0:C}", Model.Price) <span>@Model.Currency</span></div>
+                        <h3 class="property-title">@Model.Name</h3>
+
+                        <div class="property-location mb-3">
+                            <i class="fa-solid fa-location-dot"></i>
+                            @Model.Location.Street, @Model.Location.City - @Model.Location.State, @Model.Location.Country
+                        </div>
+
+                        <div class="mb-3">
+                            <h5 class="fw-semibold">Description</h5>
+                            <p>@Model.Description</p>
+                        </div>
+
+                        <div class="property-features mb-3">
+                            <div class="feature"><i class="fa-solid fa-bed"></i> @Model.NumBedrooms Bedrooms</div>
+                            <div class="feature"><i class="fa-solid fa-bath"></i> @Model.NumBathrooms Bathrooms</div>
+                            <div class="feature"><i class="fa-solid fa-car"></i> @Model.NumParkingSpaces Parking Spaces</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <strong>Area:</strong> @Model.AreaSize m² <br />
+                            <strong>Year Built:</strong> @Model.YearBuilt <br />
+                            <strong>Category:</strong> @(Model.Category?.Name ?? "Uncategorized")
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index" class="btn btn-outline-custom">
+                                <i class="fa-solid fa-arrow-left me-1"></i> Back to List
+                            </a>
+                            <div class="d-flex gap-2">
+                                <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary-custom">
+                                    <i class="fa-solid fa-edit me-1"></i> Edit
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger-custom">
+                                    <i class="fa-solid fa-trash me-1"></i> Delete
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

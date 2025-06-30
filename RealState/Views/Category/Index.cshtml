@@ -1,0 +1,129 @@
+﻿@using System.Linq
+@model RealState.ViewModel.CategoryListViewModel
+
+@{
+    ViewData["Title"] = "Category List";
+}
+<div class="container">
+    <div class="page-header fade-in-up text-center">
+        <div class="header-content">
+            <h1 class="page-title justify-content-center d-flex">
+                <i class="fa-solid fa-tags"></i>
+                Category Management
+            </h1>
+            <p class="page-subtitle">Organize and manage your property categories with ease</p>
+        </div>
+    </div>
+
+    <div class="action-bar fade-in-up">
+        <div class="d-flex justify-content-between flex-wrap align-items-center mb-3">
+            <a asp-action="Create" class="btn-custom btn-primary-custom">
+                <i class="fa-solid fa-plus"></i>
+                Add New Category
+            </a>
+            <div class="d-flex gap-3">
+                <a asp-action="ShowImportForm" class="btn-custom btn-outline-custom">
+                    <i class="fa-solid fa-file-import"></i>
+                    Import TXT
+                </a>
+                <a asp-action="ExportCategory" class="btn-custom btn-success-custom">
+                    <i class="fa-solid fa-file-export"></i>
+                    Export to TXT
+                </a>
+            </div>
+        </div>
+
+        <form asp-action="Index" method="get" class="search-form">
+            <input type="text" name="searchString" value="@Model.SearchString" class="search-input" placeholder="Search categories by name..." />
+            <button type="submit" class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </button>
+        </form>
+    </div>
+
+    @if (Model.Categories != null && Model.Categories.Any())
+    {
+        <div class="table-container fade-in-up">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            <a asp-action="Index" asp-route-sortOrder="@ViewBag.IdSortParam" asp-route-searchString="@Model.SearchString" style="color: black;">
+                                <i class="fa-solid fa-hashtag"></i>
+                                ID
+                                <i class="fa-solid fa-sort"></i>
+                            </a>
+                        </th>
+                        <th>
+                            <a asp-action="Index" asp-route-sortOrder="@ViewBag.NameSortParam" asp-route-searchString="@Model.SearchString" style="color: black;">
+                                <i class="fa-solid fa-tag"></i>
+                                Name
+                                <i class="fa-solid fa-sort"></i>
+                            </a>
+                        </th>
+                        <th style="width: 15%">
+                            <i class="fa-solid fa-cogs"></i>
+                            Actions
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <tr>
+                            <td class="id-cell">@category.Id</td>
+                            <td class="name-cell">@category.Name</td>
+                            <td>
+                                <div class="action-buttons-cell">
+                                    <a asp-action="Update" asp-route-id="@category.Id" class="btn-action btn-edit" title="Edit Category">
+                                        <i class="fa-solid fa-edit"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@category.Id" class="btn-action btn-delete" title="Delete Category">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination-container fade-in-up">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@(Model.PageNumber - 1)" asp-route-sortOrder="@Model.SortOrder" asp-route-searchString="@Model.SearchString" aria-label="Previous">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Previous
+                        </a>
+                    </li>
+
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                            <a class="page-link" asp-action="Index" asp-route-pageNumber="@i" asp-route-sortOrder="@Model.SortOrder" asp-route-searchString="@Model.SearchString">@i</a>
+                        </li>
+                    }
+
+                    <li class="page-item @(Model.PageNumber == Model.TotalPages ? "disabled" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@(Model.PageNumber + 1)" asp-route-sortOrder="@Model.SortOrder" asp-route-searchString="@Model.SearchString" aria-label="Next">
+                            Next
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state fade-in-up">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h3>No Categories Found</h3>
+            <p>Try adding a new category or change your search criteria</p>
+        </div>
+    }
+</div>

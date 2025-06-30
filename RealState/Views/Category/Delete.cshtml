@@ -1,0 +1,47 @@
+﻿@model RealStateModel.Category
+
+@{
+    ViewData["Title"] = "Delete Category";
+}
+
+<div class="container fade-in-up">
+    <div class="page-header text-center mb-4">
+        <div class="header-content">
+            <h1 class="page-title justify-content-center d-flex">
+                <i class="fa-solid fa-trash me-2"></i>
+                Delete Category
+            </h1>
+            <p class="page-subtitle">Please confirm deletion of the selected category</p>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div class="card shadow-sm p-4" style="max-width: 500px; width: 100%;">
+            <h5 class="mb-3 text-center">Are you sure you want to delete this category?</h5>
+
+            <dl class="row mb-4">
+                <dt class="col-sm-4">ID:</dt>
+                <dd class="col-sm-8">@Model.Id</dd>
+
+                <dt class="col-sm-4">Name:</dt>
+                <dd class="col-sm-8">@Model.Name</dd>
+
+                <dt class="col-sm-4"># Properties:</dt>
+                <dd class="col-sm-8">@(Model.Properties != null ? Model.Properties.Count : 0)</dd>
+            </dl>
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fa-solid fa-arrow-left me-1"></i> Back to List
+                </a>
+
+                <form method="post" asp-action="ConfirmDelete">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fa-solid fa-trash me-1"></i> Delete
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

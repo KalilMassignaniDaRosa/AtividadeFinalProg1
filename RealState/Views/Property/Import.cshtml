@@ -1,0 +1,58 @@
+﻿@model RealStateModel.Property?
+
+@{
+    ViewData["Title"] = "Import Properties";
+}
+
+<div class="container fade-in-up">
+    <div class="page-header text-center">
+        <div class="header-content">
+            <h1 class="page-title justify-content-center d-flex">
+                <i class="fa-solid fa-file-import"></i>
+                Import Properties
+            </h1>
+            <p class="page-subtitle">Import properties from a TXT file and manage your options with flexibility</p>
+        </div>
+    </div>
+
+    @if (TempData["ImportResult"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["ImportResult"]
+        </div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @Html.Raw((string)TempData["Error"]!)
+        </div>
+    }
+
+    <div class="d-flex justify-content-center">
+        <div class="import-card">
+            <form asp-action="ImportProperty" asp-controller="Property" method="post" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label for="file" class="form-label fw-semibold">Select TXT File</label>
+                    <input type="file" name="file" accept=".txt" class="form-control" required />
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fw-semibold">Import Options</label>
+                    <select name="importOption" class="form-select" required>
+                        <option value="overwrite">Overwrite All</option>
+                        <option value="add">Add Without Duplicates</option>
+                    </select>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <a asp-action="Index" asp-controller="Property" class="btn btn-outline-custom">
+                        <i class="fa-solid fa-arrow-left me-1"></i> Cancel
+                    </a>
+                    <button type="submit" class="btn btn-primary-custom">
+                        <i class="fa-solid fa-file-import me-1"></i> Import
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
