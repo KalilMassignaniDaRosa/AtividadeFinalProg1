@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\RealState\\RealState\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\atividadefinalprog1\\realstate\\views\\property\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|solutionrelative:realstate\\views\\property\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\atividadefinalprog1\\realstate\\views\\property\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|solutionrelative:realstate\\views\\property\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\atividadefinalprog1\\realstate\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|solutionrelative:realstate\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{685F58DC-4A28-490B-8F1B-B2F67D4184A8}|Repository\\Repository.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\atividadefinalprog1\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{685F58DC-4A28-490B-8F1B-B2F67D4184A8}|Repository\\Repository.csproj|solutionrelative:repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Views\\Property\\Details.cshtml",
+              "RelativeDocumentMoniker": "RealState\\Views\\Property\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Views\\Property\\Details.cshtml",
+              "RelativeToolTip": "RealState\\Views\\Property\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T22:41:21.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "RealState\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "RealState\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:39:44.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwM0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:37:01.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Import.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Views\\Property\\Import.cshtml",
+              "RelativeDocumentMoniker": "RealState\\Views\\Property\\Import.cshtml",
+              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Views\\Property\\Import.cshtml",
+              "RelativeToolTip": "RealState\\Views\\Property\\Import.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T22:32:54.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

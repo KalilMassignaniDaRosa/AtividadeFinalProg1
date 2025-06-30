@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\RealState\\RealState\\",
+  "WorkspaceRootPath": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\realstate\\realstate\\realstate\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\atividadefinalprog1\\realstate\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|solutionrelative:realstate\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\realstate\\realstate\\realstate\\views\\property\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|solutionrelative:realstate\\views\\property\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|c:\\users\\kalil\\documents\\c\u00F3digos\\atividadefinalprog1\\realstate\\views\\property\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D613418-D0D8-484E-8E7B-358C2D6D8FD1}|RealState\\RealState.csproj|solutionrelative:realstate\\views\\property\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Import.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\RealState\\RealState\\RealState\\Views\\Property\\Import.cshtml",
-              "RelativeDocumentMoniker": "RealState\\Views\\Property\\Import.cshtml",
-              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\RealState\\RealState\\RealState\\Views\\Property\\Import.cshtml",
-              "RelativeToolTip": "RealState\\Views\\Property\\Import.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T18:38:33.976Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\RealState\\RealState\\RealState\\Controllers\\PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "RealState\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\RealState\\RealState\\RealState\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Controllers\\PropertyController.cs",
               "RelativeToolTip": "RealState\\Controllers\\PropertyController.cs",
-              "ViewState": "AgIAAFYBAAAAAAAAAAAwwGYBAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAwwKoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T18:35:22.584Z",
+              "WhenOpened": "2025-06-30T22:45:11.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Views\\Property\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RealState\\Views\\Property\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Kalil\\Documents\\C\u00F3digos\\AtividadeFinalProg1\\RealState\\Views\\Property\\Delete.cshtml",
+              "RelativeToolTip": "RealState\\Views\\Property\\Delete.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwDwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T22:43:46.248Z",
               "EditorCaption": ""
             }
           ]

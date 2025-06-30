@@ -43,3 +43,8 @@
 48;Business Office Center;Office in business center;Av. Getúlio Vargas;Curitiba;PR;Brazil;0;2;2;85;2020;350000;USD;ForRent;4
 49;Family Villa;Spacious family villa;Rua das Palmeiras;Campinas;SP;Brazil;5;3;4;210;2017;680000;USD;ForSale;1
 50;Urban Apartment;Apartment in prime area;Av. Brigadeiro Faria Lima;São Paulo;SP;Brazil;3;2;2;110;2021;420000;USD;ForRent;2
+5;Lake House;Cozy house by the lake;Rua das Águas;Brasília;DF;Brazil;4;2;3;180;2018;650000;USD;ForSale;1
+6;City Apartment;Modern apartment in city center;Av. Goiás;Goiânia;GO;Brazil;2;1;1;75;2020;300000;USD;ForRent;2
+7;Countryside Farm;Spacious farm in the countryside;Estrada das Flores;Londrina;PR;Brazil;5;4;4;700;2012;1600000;USD;ForSale;3
+8;Office Space;Office near financial district;Rua São José;Porto Alegre;RS;Brazil;0;2;2;90;2019;320000;USD;ForRent;4
+9;Garden House;Charming house with garden;Rua das Oliveiras;Belo Horizonte;MG;Brazil;4;2;3;140;2016;580000;USD;ForSale;1

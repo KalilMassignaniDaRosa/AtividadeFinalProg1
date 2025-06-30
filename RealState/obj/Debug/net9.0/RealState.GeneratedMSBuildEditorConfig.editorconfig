@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RealState
 build_property.RootNamespace = RealState
-build_property.ProjectDir = C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealState\
+build_property.ProjectDir = C:\Users\Kalil\Documents\Códigos\AtividadeFinalProg1\RealState\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealState
+build_property.MSBuildProjectDirectory = C:\Users\Kalil\Documents\Códigos\AtividadeFinalProg1\RealState
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Category/Create.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Category/Delete.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Category/Export.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Category/Export.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRXhwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Category/Import.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Category/Import.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW1wb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Category/Index.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Category/Update.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Category/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Home/Index.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Create.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Delete.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Details.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Export.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Export.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcRXhwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Import.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Import.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcSW1wb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Index.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Property/Update.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Property/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Shared/Error.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/_ViewImports.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/_ViewStart.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kalil/Documents/Códigos/RealState/RealState/RealState/Views/Shared/_Layout.cshtml]
+[C:/Users/Kalil/Documents/Códigos/AtividadeFinalProg1/RealState/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8i4aw5ftpi

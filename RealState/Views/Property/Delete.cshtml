@@ -56,10 +56,10 @@
                     <dd class="col-sm-8">@Model.YearBuilt</dd>
 
                     <dt class="col-sm-4">Price:</dt>
-                    <dd class="col-sm-8">@string.Format("{0:C} {1}", Model.Price, Model.Currency)</dd>
+                    <dd class="col-sm-8">@string.Format("{0:N2} {1}", Model.Price, Model.Currency)</dd>
 
                     <dt class="col-sm-4">Status:</dt>
-                    <dd class="col-sm-8">@Model.Status</dd>
+                    <dd class="col-sm-8">@Model.StatusDisplay</dd>
 
                     <dt class="col-sm-4">Category:</dt>
                     <dd class="col-sm-8">@(Model.Category?.Name ?? "Uncategorized")</dd>

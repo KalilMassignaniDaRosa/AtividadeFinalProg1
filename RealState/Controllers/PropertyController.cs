@@ -170,9 +170,12 @@ namespace RealState.Controllers
             if (property == null)
                 return NotFound();
 
-            // View Delete com variavel
+            Category? category = _categoryRepository.Retrieve(property.CategoryId);
+            property.Category = category;
+
             return View(property);
         }
+
 
         [HttpPost]
         public IActionResult ConfirmDelete(int? id)
@@ -265,14 +268,14 @@ namespace RealState.Controllers
             }
 
             int importedCount = 0;
-            List<string> errors = new List<string>();
+            List<string> errors = [];
 
             if (importOption == "overwrite")
             {
                 RealStateData.Properties.Clear();
             }
 
-            using (StreamReader reader = new StreamReader(file.OpenReadStream()))
+            using (StreamReader reader = new(file.OpenReadStream()))
             {
                 int lineNumber = 0;
 
@@ -309,7 +312,7 @@ namespace RealState.Controllers
                         continue;
                     }
 
-                    Property prop = new Property
+                    Property prop = new()
                     {
                         Name = parts[1],
                         Description = string.IsNullOrWhiteSpace(parts[2]) ? "" : parts[2],

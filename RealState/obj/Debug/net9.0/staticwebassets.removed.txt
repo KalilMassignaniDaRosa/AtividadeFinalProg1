@@ -1,2 +1,0 @@
-C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealState\wwwroot\TextFiles\Category\DelimitedCategories.txt
-C:\Users\Kalil\Documents\Códigos\RealState\RealState\RealState\wwwroot\TextFiles\Property\DelimitedProperties.txt

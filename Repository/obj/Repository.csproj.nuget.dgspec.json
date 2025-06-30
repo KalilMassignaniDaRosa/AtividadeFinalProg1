@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\Repository\\Repository.csproj": {}
+    "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\RealStateModel\\RealStateModel.csproj": {
+    "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\RealStateModel\\RealStateModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\RealStateModel\\RealStateModel.csproj",
+        "projectUniqueName": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\RealStateModel\\RealStateModel.csproj",
         "projectName": "RealStateModel",
-        "projectPath": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\RealStateModel\\RealStateModel.csproj",
+        "projectPath": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\RealStateModel\\RealStateModel.csproj",
         "packagesPath": "C:\\Users\\Kalil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\RealStateModel\\obj\\",
+        "outputPath": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\RealStateModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -66,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\Repository\\Repository.csproj": {
+    "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Kalil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\RealStateModel\\RealStateModel.csproj": {
-                "projectPath": "C:\\Users\\Kalil\\Documents\\Códigos\\RealState\\RealState\\RealStateModel\\RealStateModel.csproj"
+              "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\RealStateModel\\RealStateModel.csproj": {
+                "projectPath": "C:\\Users\\Kalil\\Documents\\Códigos\\AtividadeFinalProg1\\RealStateModel\\RealStateModel.csproj"
               }
             }
           }
@@ -115,7 +115,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
